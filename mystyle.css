@@ -48,19 +48,52 @@ div.polaroid {
  
 }
 
+/*center divs content*/
+.container{
+  text-align: center;
+}
+
 /*Justify test*/
 .justified{
     	text-align: justify;
     	text-justify: inter-word;
 	}
 
- /* Remove the navbar's default margin-bottom and rounded borders */
+ /* Remove the navbar's default margin-bottom and rounded borders 
  .navbar {
       margin-bottom: 0;
       border-radius: 0;
       background-color: #123456;
     }
+*/
+/**/
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 0;
+  margin-right:25px;
+  border-radius: 0;
+  background-color: #123456;
+  z-index: 1000;
+}
 
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+/**/
  /* Add a gray background color and some padding to the footer */
  footer {
       background-color: #123456;
