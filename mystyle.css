@@ -131,7 +131,7 @@ img.img_icon{
     text-align: center;
     width:30px; 
     height:30px;
-   vertical-align: top;
+    vertical-align: inherit;
 }
 
 /*Set social icons standard size*/
