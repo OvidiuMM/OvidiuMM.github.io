@@ -1,3 +1,31 @@
+/*flash animation*/
+.div_animation {
+    position: relative;
+    -webkit-animation-name: intro; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+    animation-name: intro;
+    animation-duration: 1s;
+    animation-direction: reverse;    
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes intro {
+      0% { left:0px; top:0px;}
+     25% { left:0px; top:50px;}
+     50% { left:0px; top:0px;}
+     75% { left:0px; top:100px;}
+    100% { left:0px; top:-100px;}
+}
+
+/* Standard syntax */
+@keyframes intro {
+      0% { left:0px; top:0px;}
+     25% { left:0px; top:25px;}
+     50% { left:0px; top:0px;}
+     75% { left:0px; top:400px;}
+    100% { left:0px; top:0px;}
+}
 
 /*carousel style - nav indicators*/
 .carousel-indicators .active {
