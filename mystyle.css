@@ -16,7 +16,7 @@
 }
 
 .tag-cloud span {
-  background-color: #e0e0e0;
+  background-color: #b9d4f0;
   padding: 8px 15px;
   border-radius: 20px;
   font-size: 1.1em;
@@ -38,14 +38,6 @@
   color: white;
 }
 
-.tag span {
-  display: inline-block;
-  background-color: #e9ecef;
-  color: #495057;
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-size: 0.9em;
-}
 
 /* navigation bar styles */
 .navbar {
@@ -82,4 +74,17 @@ img.flags_icon {
   height: 15px;
   width: 15px;
 
+}
+
+h2 {
+  color: #406E8E !important;
+}
+
+.bg-primary1 {
+  background-color: #406E8E !important;
+}
+
+.text-primary1 {
+  --bs-text-opacity: 1;
+  color: #4090e6 !important;
 }
