@@ -19,12 +19,22 @@
     try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
   }
 
-  // Initial language: stored preference > browser language > Spanish
-  var initial = "es";
+  // Detect language from the visitor's browser:
+  // Spanish-speaking browser -> Spanish; any other -> English.
+  function detectFromBrowser() {
+    var primary = (
+      (navigator.languages && navigator.languages[0]) ||
+      navigator.language ||
+      ""
+    ).toLowerCase();
+    return primary.indexOf("es") === 0 ? "es" : "en";
+  }
+
+  // Initial language: a previous manual choice wins; otherwise auto-detect.
+  var initial = detectFromBrowser();
   try {
     var stored = localStorage.getItem(STORAGE_KEY);
-    if (stored) initial = stored;
-    else if ((navigator.language || "").toLowerCase().indexOf("es") !== 0) initial = "en";
+    if (stored === "es" || stored === "en") initial = stored;
   } catch (e) {}
   setLang(initial);
 
