@@ -22,7 +22,7 @@ Content is already populated from Ovidiu Moldovan's CV (bio, experience, educati
 **Contact form (Google Form)**: the contact section embeds a Google Form via `<iframe>`. To connect yours:
 1. Open your Google Form → **Send** → the **`< >`** (Embed HTML) tab.
 2. Copy the `src` URL — it looks like `https://docs.google.com/forms/d/e/XXXXXXXX/viewform?embedded=true`.
-3. In `index.html`, replace `TU_ID` in the iframe `src` with your real ID (the `XXXXXXXX` part).
+3. In `index.html`, replace the iframe `src` value with your form’s `src` URL.
 4. Adjust the iframe height in `styles.css` (`.form-embed iframe { height: … }`) if your form is taller/shorter.
 
 Your email (`ovidiu5891@gmail.com`) is also shown above the form as a fallback.
