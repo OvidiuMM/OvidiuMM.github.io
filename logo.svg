@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Moldovan Tech">
+  <g fill="none" stroke="#1b3a5b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Outer ring with a gap at top-left where the data stream enters -->
+    <path d="M70 34
+             A104 104 0 1 1 41 78" />
+
+    <!-- Binary data stream flowing into the gap -->
+    <g font-family="'Courier New', monospace" font-size="11" fill="#1b3a5b" stroke="none" opacity="0.85">
+      <text x="34" y="60">10</text>
+      <text x="44" y="76">01</text>
+      <text x="40" y="92">100</text>
+      <text x="50" y="108">011</text>
+      <text x="58" y="124">10</text>
+    </g>
+
+    <!-- Stylized "M" monogram -->
+    <path d="M86 168 L86 96 L120 138 L154 96 L154 168" stroke-width="9" />
+
+    <!-- Circuit nodes on the M -->
+    <g fill="#1b3a5b" stroke="none">
+      <circle cx="86" cy="96" r="6.5" />
+      <circle cx="120" cy="138" r="6.5" />
+      <circle cx="154" cy="96" r="6.5" />
+      <circle cx="86" cy="168" r="5.5" />
+      <circle cx="154" cy="168" r="5.5" />
+      <circle cx="103" cy="117" r="4" />
+      <circle cx="137" cy="117" r="4" />
+    </g>
+
+    <!-- Small circuit traces branching off the monogram -->
+    <g stroke-width="2.5">
+      <path d="M154 110 L176 110" />
+      <path d="M86 128 L66 128" />
+      <path d="M120 138 L120 160" />
+    </g>
+    <g fill="#1b3a5b" stroke="none">
+      <circle cx="178" cy="110" r="3" />
+      <circle cx="64" cy="128" r="3" />
+    </g>
+  </g>
+</svg>

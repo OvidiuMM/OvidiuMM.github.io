@@ -1,482 +1,454 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ovidiu Mircea Moldovan Goloman</title>
-    <link rel="stylesheet" href="mystyle.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ovidiu Moldovan — Consultoría, Formación y Desarrollo en IA</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script>
-    <script src="myscripts.js"></script>
+  <!-- SEO -->
+  <meta name="description" content="Ovidiu Moldovan — Ingeniero de software (UPM), PM/QA Lead y creador del Cronos Framework. +13 años de experiencia (Ericsson, Telefónica, Devo, DearDoc). Consultoría, formación y desarrollo de IA, IoT y automatización para empresas, la administración pública española y particulares." />
+  <meta name="author" content="Ovidiu Moldovan" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ovidiu.moldovan.es/" />
 
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Ovidiu Moldovan — Consultoría, Formación y Desarrollo en IA" />
+  <meta property="og:description" content="Ingeniero de software y PM/QA Lead. Consultoría, formación y desarrollo de IA, IoT y automatización para empresas, administración pública y particulares." />
+  <meta property="og:url" content="https://ovidiu.moldovan.es/" />
+  <meta property="og:image" content="https://ovidiu.moldovan.es/logo.svg" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:site_name" content="Ovidiu Moldovan" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Ovidiu Moldovan — AI Consultancy, Training & Development" />
+  <meta name="twitter:description" content="Software engineer and PM/QA Lead. AI, IoT and automation consultancy, training and development for companies, public administration and individuals." />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
+<body class="lang-es">
 
-<body>
-    <header class="bg-primary1 text-white py-4">
-        <div class="mt-2" style="display: inline-block;">
-            <select class="form-select" aria-label="Language selection" id="mySelect">
-                <option value="en" selected>
-                    <img src="https://flagcdn.com/16x12/gb.png" alt="English Flag" class="me-2"> En
-                </option>
-                <option value="es">
-                    <img src="https://flagcdn.com/16x12/es.png" alt="Spanish Flag" class="me-2"> Es
-                </option>
-            </select>
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <img class="brand-logo" src="logo.svg" width="40" height="40" alt="Logo Moldovan Tech" />
+        <span class="brand-text">
+          <span class="brand-name">Ovidiu Moldovan</span>
+          <span class="brand-sub">Moldovan Tech · Software Engineering</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#about"><span class="es">Sobre mí</span><span class="en">About</span></a></li>
+          <li><a href="#services"><span class="es">Servicios</span><span class="en">Services</span></a></li>
+          <li><a href="#cronos">Cronos</a></li>
+          <li><a href="#experience"><span class="es">Trayectoria</span><span class="en">Experience</span></a></li>
+          <li><a href="#audiences"><span class="es">Con quién trabajo</span><span class="en">Who I work with</span></a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a class="nav-cta" href="#contact"><span class="es">Contacto</span><span class="en">Contact</span></a></li>
+        </ul>
+      </nav>
+
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" data-lang="es" class="lang-btn is-active" aria-pressed="true">ES</button>
+        <span aria-hidden="true">/</span>
+        <button type="button" data-lang="en" class="lang-btn" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">
+          <span class="es">Consultoría · Formación · Desarrollo en IA</span>
+          <span class="en">AI Consultancy · Training · Development</span>
+        </p>
+        <h1>Ovidiu Moldovan</h1>
+        <p class="hero-role">
+          <span class="es">Ingeniero de Software · PM &amp; QA Lead</span>
+          <span class="en">Software Engineer · PM &amp; QA Lead</span>
+        </p>
+        <p class="hero-lead">
+          <span class="es">Soy de los que buscan convertir, a través de la tecnología, el mundo que tenemos en el mundo que queremos. Ayudo a empresas, a la administración pública y a particulares a adoptar la IA, el IoT y la automatización de forma práctica, segura y rentable.</span>
+          <span class="en">I'm the kind of person who seeks to turn, through technology, the world we have into the world we want. I help companies, public administration and individuals adopt AI, IoT and automation in a practical, secure and profitable way.</span>
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">
+            <span class="es">Reserva una llamada</span><span class="en">Book a call</span>
+          </a>
+          <a class="btn btn-ghost" href="#services">
+            <span class="es">Ver servicios</span><span class="en">See services</span>
+          </a>
         </div>
-        <div class="container">
-            <h1 class="display-4 fw-bold">Ovidiu Mircea Moldovan Goloman</h1>
-            <p class="lead">Software & Research Engineer</p>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2><span class="es">Sobre mí</span><span class="en">About me</span></h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              <span class="es">Soy Ovidiu Moldovan, ingeniero de software por la Universidad Politécnica de Madrid (UPM) con más de 13 años de experiencia en el sector tecnológico. He desarrollado mi carrera en compañías como Ericsson, Telefónica (Talentum), Devo y DearDoc, donde actualmente lidero la gestión de proyectos y el aseguramiento de la calidad.</span>
+              <span class="en">I'm Ovidiu Moldovan, a software engineer from the Technical University of Madrid (UPM) with over 13 years of experience in the tech sector. I've built my career at companies such as Ericsson, Telefónica (Talentum), Devo and DearDoc, where I currently lead project management and quality assurance.</span>
+            </p>
+            <p>
+              <span class="es">Combino el rigor técnico de la ingeniería (Python, Django, microservicios, datos y middleware de alto rendimiento) con la visión de negocio de un MBA y la disciplina del marco Scrum. No vendo IA por moda: identifico dónde aporta retorno real, qué riesgos hay que gestionar y cómo formar a tu equipo para que la tecnología sea sostenible. Mi interés actual se centra en IoT/IIoT, automatización, robótica y diseño de producto software innovador.</span>
+              <span class="en">I combine engineering rigour (Python, Django, microservices, data and high-performance middleware) with the business vision of an MBA and the discipline of the Scrum framework. I don't sell AI as a trend: I identify where it delivers real ROI, what risks must be managed and how to train your team so the technology is sustainable. My current focus is IoT/IIoT, automation, robotics and innovative software product design.</span>
+            </p>
+            <ul class="trust-points">
+              <li><span class="es">+13 años de experiencia en ingeniería de software y gestión de proyectos.</span><span class="en">13+ years in software engineering and project management.</span></li>
+              <li><span class="es">Scrum Master certificado (PSM I) y AWS Cloud Practitioner.</span><span class="en">Certified Scrum Master (PSM I) and AWS Cloud Practitioner.</span></li>
+              <li><span class="es">Cumplimiento y ética: RGPD y el Reglamento de IA de la UE.</span><span class="en">Compliance and ethics: GDPR and the EU AI Act.</span></li>
+              <li><span class="es">Atención trilingüe: español, inglés y rumano.</span><span class="en">Trilingual service: Spanish, English and Romanian.</span></li>
+            </ul>
+          </div>
+          <aside class="about-card">
+            <h3><span class="es">En breve</span><span class="en">At a glance</span></h3>
+            <dl>
+              <dt><span class="es">Especialidad</span><span class="en">Focus</span></dt>
+              <dd><span class="es">IA aplicada, IoT/IIoT y automatización</span><span class="en">Applied AI, IoT/IIoT &amp; automation</span></dd>
+              <dt><span class="es">Idiomas</span><span class="en">Languages</span></dt>
+              <dd><span class="es">Español y rumano (nativo), inglés (profesional)</span><span class="en">Spanish &amp; Romanian (native), English (professional)</span></dd>
+              <dt><span class="es">Modalidad</span><span class="en">Mode</span></dt>
+              <dd><span class="es">Remoto y presencial · flexible</span><span class="en">Remote &amp; on-site · flexible</span></dd>
+              <dt><span class="es">Ubicación</span><span class="en">Location</span></dt>
+              <dd><span class="es">Comunidad de Madrid, España</span><span class="en">Madrid region, Spain</span></dd>
+            </dl>
+          </aside>
         </div>
-    </header>
-    <main class="container py-5">
-        <!-- Language selection dropdown - english content -->
-        <div id="enDiv">
-            <section id=" about-me" class="mb-5 bg-white p-4 rounded shadow-sm">
-                <h2 class="display-4 text-primary1 mb-4 border-bottom pb-2 fw-semibold">About Me</h2>
-                <p class="lead">
-                    I am a highly skilled and experienced Software & Research Engineer with a demonstrated history of
-                    working in the information technology and services industry.
-                    My experience spans all aspects of a software project, from requirements management, software
-                    development and process management, CI/QA, research, and technical support. I have a strong
-                    background
-                    in designing and
-                    implementing scalable solutions, with proficiency in various programming languages and technologies.
-                    I
-                    am passionate about leveraging my skills to drive
-                    innovation and solve complex challenges, especially those geared toward creating a better world.
-                </p>
-                <p class="lead">
-                    I excel at leading and coordinating software engineering initiatives, facilitating Agile practices,
-                    and
-                    ensuring project milestones are met efficiently.
-                </p>
-            </section>
+      </div>
+    </section>
 
-            <section id="background" class="mb-5 bg-white p-4 rounded shadow-sm">
-                <h2 class="display-4 text-primary1 mb-4 border-bottom pb-2 fw-semibold">Background</h2>
-                <h3 class="h4 fw-semibold mt-4">Studies</h3>
-                <ul class="list-unstyled">
-                    <li><strong>MBA</strong>, Universidad Politécnica de Madrid (2016-2017)</li>
-                    <li><strong>Master in Application Development and Services for Mobile Devices (IoT &
-                            Cloud)</strong>,
-                        Universidad Politécnica de Madrid (2015-2017)</li>
-                    <li><strong>Bachelor's Degree in Software Engineering</strong>, Universidad Politécnica de Madrid
-                        (2006-2013)</li>
-                    <li><strong>Administration Technician in Computer Systems</strong>, I.E.S. Europa, Rivas Vaciamadrid
-                        (2004-2006)</li>
-                </ul>
+    <!-- ============ SERVICES ============ -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <h2><span class="es">Servicios</span><span class="en">Services</span></h2>
+        <p class="section-lead">
+          <span class="es">Tres formas de trabajar juntos. Cada una se adapta a empresas, a la administración pública española y a particulares.</span>
+          <span class="en">Three ways to work together. Each adapts to companies, the Spanish public administration and individuals.</span>
+        </p>
 
-                <h3 class="h4 fw-semibold mt-4">Work Experience</h3>
-                <h4>Software & Research Engineer, DEVO inc. Madrid (2018 - 2025)</h4>
-                <ul class="list-unstyled">
-                    <li>Led and coordinated multiple software engineering initiatives, ensuring project milestones and
-                        deliverables were met efficiently.</li>
-                    <li>Designed and implemented middleware solutions and API-driven services using Python.</li>
-                    <li>Developed interactive web applications for data representation.</li>
-                    <li>Oversaw backend service development and maintenance as well as the CI/QA processes related.</li>
-                    <li>Managed Level 1 support, diagnosing and resolving system issues.</li>
-                    <li>Designed and maintained scalable, asynchronous services leveraging Celery, Redis, and Django.
-                    </li>
-                </ul>
-                <h4>Software Developer & Research Engineer, Ericsson R+D Madrid (2013 - 2018)</h4>
-                <ul class="list-unstyled">
-                    <li>Developed and tested software features using Java, Python, and scripting languages.</li>
-                    <li>Contributed to OpenDayLight development, implementing features in C++ & Shell scripting.</li>
-                    <li>Executed QA processes, ensuring software reliability.</li>
-                    <li>Managed Tagtool and Wiki repositories.</li>
-                    <li>Provided coaching and guidance to new employees and interns.</li>
-                    <li>Implemented and managed Scrum Methodology.</li>
-                </ul>
-                <h4>Software Engineer (intern), Telefónica, Madrid (2013)</h4>
-                <ul class="list-unstyled">
-                    <li>Led the AdGradum project, an internal startup initiative focused on career assessment tools.
-                    </li>
-                    <li>Designed and developed backend and frontend components using Python, Django, HTML5, and
-                        Bootstrap.
-                    </li>
-                    <li>Implemented web scraping techniques to collect and analyze relevant data.</li>
-                    <li>Designed a vocational test grounded in theoretical psychology.</li>
-                </ul>
-                <h4>Software Developer (intern), Ericsson R+D, Madrid (2011 - 2012)</h4>
-                <ul class="list-unstyled">
-                    <li>Conducted research and developed software solutions for telecommunications and connectivity
-                        applications.</li>
-                    <li>Developed an SMPP client-server management library in Java.</li>
-                    <li>Implemented software solutions integrating Bluetooth, GPS, WiFi, and USB Modem dongles.</li>
-                    <li>Designed and developed a Windows GUI using JSwing.</li>
-                    <li>Created web-based applications utilizing JavaScript, Servlets, and Google Maps API.</li>
-                </ul>
-            </section>
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🧭</div>
+            <h3><span class="es">Consultoría</span><span class="en">Consultancy</span></h3>
+            <p>
+              <span class="es">Ayudo a tu organización a adoptar e integrar la IA, el IoT y la automatización: diagnóstico de oportunidades, estrategia, selección de herramientas y hoja de ruta de implantación.</span>
+              <span class="en">I help your organisation adopt and integrate AI, IoT and automation: opportunity assessment, strategy, tool selection and an implementation roadmap.</span>
+            </p>
+            <ul class="card-tags">
+              <li><span class="es">Empresas: casos de uso y ROI.</span><span class="en">Companies: use cases and ROI.</span></li>
+              <li><span class="es">Administración: cumplimiento y licitaciones.</span><span class="en">Administration: compliance and tenders.</span></li>
+              <li><span class="es">Particulares: orientación y productividad.</span><span class="en">Individuals: guidance and productivity.</span></li>
+            </ul>
+          </article>
 
-            <section id="projects" class="mb-5 bg-white p-4 rounded shadow-sm">
-                <h2 class="display-4 text-primary1 mb-4 border-bottom pb-2 fw-semibold">Projects</h2>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">Meni</h3>
-                    <p>
-                        An (iOS & AWS -> Serverless) application that connects solidarity causes with people and
-                        resources.
-                    </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">Spring</h3>
-                    <p>
-                        An intelligent personal advisor for health and climate (http://springsmartcity.com/).
-                    </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">AdGradum</h3>
-                    <p>
-                        A personal assistant to guide you in choosing higher education.
-                    </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">GIVR project</h3>
-                    <p>
-                        3rd prize, HackForGood Madrid with the GIVR project & UPM - Special GIO award: MBA.
-                    </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">Smart Baby</h3>
-                    <p>
-                        1st prize, Hackathon IoT BBVA, with the Smart Baby project.
-                    </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">Spring project</h3>
-                    <p>
-                        Excellence Award in User Interface of FI-WARE Smart Society Challenge
-                    </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">Spring project</h3>
-                    <p>
-                        Finalist of the FI-WARE 800k Challenge at Campus Party Brazil
-                    </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">Hackathon EBBITS</h3>
-                    <p>
-                        Winner
-                    </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">FirefoxOS Hackathon</h3>
-                    <p>
-                        Winner for the best application of HEALTH & GREEN-TIC.
-                    </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">EUI-UPM programming competition</h3>
-                    <p>
-                        1st prize
-                    </p>
-                </div>
-            </section>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🎓</div>
+            <h3><span class="es">Formación</span><span class="en">Training</span></h3>
+            <p>
+              <span class="es">Talleres y cursos prácticos para equipos y personal. Desde fundamentos de IA generativa y metodologías ágiles (Scrum) hasta uso responsable y herramientas del día a día.</span>
+              <span class="en">Hands-on workshops and courses for teams and staff. From generative-AI fundamentals and Agile methodologies (Scrum) to responsible use and everyday tools.</span>
+            </p>
+            <ul class="card-tags">
+              <li><span class="es">Empresas: formación a medida por equipos.</span><span class="en">Companies: tailored team training.</span></li>
+              <li><span class="es">Administración: alfabetización en IA del personal.</span><span class="en">Administration: staff AI literacy.</span></li>
+              <li><span class="es">Particulares: cursos y mentoría 1:1.</span><span class="en">Individuals: courses and 1:1 mentoring.</span></li>
+            </ul>
+          </article>
 
-            <section id="skills" class="mb-5 bg-white p-4 rounded shadow-sm">
-                <h2 class="display-4 text-primary1 mb-4 border-bottom pb-2 fw-semibold">Technical Skills</h2>
-                <p class="lead">
-                    I possess a wide range of technical skills, with a focus on the following key areas:
-                </p>
-                <div class="mt-4">
-                    <div class="tag-cloud">
-                        <span class="main-tag">Python</span>
-                        <span class="main-tag">Linux</span>
-                        <span class="main-tag">Raspberry Pi</span>
-                        <span class="main-tag">SQL</span>
-                        <span class="main-tag">Java</span>
-                        <span class="main-tag">C++</span>
-                        <span>JavaScript</span>
-                        <span>Scripting languages</span>
-                        <span>Node.js</span>
-                        <span>C#</span>
-                        <span>Objective-C</span>
-                        <span>Swift</span>
-                        <span>HTML</span>
-                        <span>Ruby</span>
-                        <span>LISP</span>
-                        <span>Windows</span>
-                        <span>Windows Phone</span>
-                        <span>macOS</span>
-                        <span>Android</span>
-                        <span>iOS</span>
-                        <span>Django</span>
-                        <span>Visual Studio</span>
-                        <span>PyCharm</span>
-                        <span>vi</span>
-                        <span>3D printing</span>
-                        <span>scanning & modeling</span>
-                        <span>CNC laser handling</span>
-                        <span>Microsoft Office</span>
-                        <span>Open/LibreOffice</span>
-                        <span>LaTeX</span>
-                        <span>Wikis</span>
-                        <span>Tagtool</span>
-                        <span>Arduino</span>
-                        <span>iBeacons</span>
-                        <span>L8 SmartLight</span>
-                        <span>Bluetooth</span>
-                        <span>Wi-Fi</span>
-                        <span>IoT</span>
-                        <span>IIoT</span>
-                    </div>
-                </div>
-            </section>
-            <section id="contacto" class="mb-5 bg-white p-4 rounded shadow-sm">
-                <h2 class="display-4 text-primary1 mb-4 border-bottom pb-2 fw-semibold">Contact</h2>
-                <p> Please use the following to contact me. </p>
-                <div class="contacto-links">
-                    <a href="mailto:ovidiu5891@outlook.es"><i class="bi bi-envelope-fill fs-3"></i> <span> Email</span>
-                    </a><br>
-                    <a href="https://www.linkedin.com/in/ovidiumirceamoldovan" target="_blank"
-                        rel="noopener noreferrer">
-                        <i class="bi bi-linkedin fs-3"></i><span> LinkedIn</span> </a>
-                    <a href="https://www.tinkercad.com/users/c07XIht3IOZ-ovid" target="_blank" rel="noopener noreferrer"
-                        class="d-flex align-items-center gap-2 text-decoration-none">
-                        <i class="bi bi-box-seam fs-3"></i> <span>Tinkercad Profile</span> </a>
-                    <a href="https://github.com/OvidiuMM" target="_blank" rel="noopener noreferrer"
-                        class="d-flex align-items-center gap-2 text-decoration-none">
-                        <i class="bi bi-github fs-3"></i>
-                        <span>GitHub Profile</span>
-                    </a>
-                </div>
-            </section>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">⚙️</div>
+            <h3><span class="es">Desarrollo</span><span class="en">Development</span></h3>
+            <p>
+              <span class="es">Construcción de soluciones a medida: asistentes de IA, automatizaciones, servicios backend, integraciones y prototipos que pasan a producción (Python, Django, Celery, microservicios).</span>
+              <span class="en">Building custom solutions: AI assistants, automations, backend services, integrations and prototypes that reach production (Python, Django, Celery, microservices).</span>
+            </p>
+            <ul class="card-tags">
+              <li><span class="es">Empresas: automatización de procesos.</span><span class="en">Companies: process automation.</span></li>
+              <li><span class="es">Administración: soluciones seguras y auditables.</span><span class="en">Administration: secure, auditable solutions.</span></li>
+              <li><span class="es">Particulares: proyectos y herramientas propias.</span><span class="en">Individuals: personal projects and tools.</span></li>
+            </ul>
+          </article>
         </div>
-        <!-- Language selection dropdown - english content -->
-        <div id="esDiv" style="display: none;">
+      </div>
+    </section>
 
+    <!-- ============ CRONOS FRAMEWORK ============ -->
+    <section class="section cronos" id="cronos">
+      <div class="container">
+        <p class="eyebrow eyebrow-light">
+          <span class="es">Metodología propia · Open source</span>
+          <span class="en">My own methodology · Open source</span>
+        </p>
+        <h2 class="cronos-title">
+          <span class="es">Creador del Cronos Framework</span>
+          <span class="en">Creator of the Cronos Framework</span>
+        </h2>
+        <p class="cronos-lead">
+          <span class="es">Una metodología estratégica para el «vibe coding» validado por humanos y la ingeniería de software con agentes de IA. Cronos organiza el desarrollo en ciclos deterministas de una semana, equilibrando la velocidad generativa de la IA con el rigor de la ingeniería profesional.</span>
+          <span class="en">A strategic methodology for human-validated «vibe coding» and agentic AI software engineering. Cronos organises development into deterministic one-week cycles, balancing the generative velocity of AI with the rigour of professional engineering.</span>
+        </p>
 
-            <section id="about-me" class="mb-5 bg-white p-4 rounded shadow-sm">
-                <h2 class="display-4 text-primary1 mb-4 border-bottom pb-2 fw-semibold">Presentación</h2>
-                <p class="lead">
-                    Ingeniero de Software e Investigación con experiencia demostrada en la industria de la tecnología de
-                    la información y los servicios. Mi experiencia abarca todos los
-                    aspectos de la vida de un proyecto software desde la gestión de requisitos, el desarrollo y gestión
-                    de proceso de software, CI/QA, la investigación y el soporte técnico. Tengo una
-                    sólida formación en el diseño e implementación de soluciones escalables, con dominio de diversos
-                    lenguajes y tecnologías de programación. Me apasiona aprovechar mis habilidades para impulsar la
-                    innovación y resolver desafíos especialmente sí están orientados a crear un mundo mejor.
-                </p>
-                <p class="lead">
-                    También cuento con experiencia en la dirección y coordinación de iniciativas de ingeniería de
-                    software, facilitando las prácticas ágiles y asegurando que los hitos del proyecto se cumplan de
-                    manera eficiente.
-                </p>
-            </section>
-
-            <section id="background" class="mb-5 bg-white p-4 rounded shadow-sm">
-                <h2 class="display-4 text-primary1 mb-4 border-bottom pb-2 fw-semibold">Trayectoria</h2>
-                <h3 class="h4 fw-semibold mt-4">Estudios</h3>
-                <ul class="list-unstyled">
-                    <li><strong>MBA</strong>, Universidad Politécnica de Madrid (2016-2017)</li>
-                    <li><strong>Máster en Desarrollo de Aplicaciones y Servicios para Dispositivos Móviles (IoT &
-                            Cloud)</strong>,
-                        Universidad Politécnica de Madrid (2015-2017)</li>
-                    <li><strong>Grado en Ingeniería del Software</strong>, Universidad Politécnica de Madrid
-                        (2006-2013)</li>
-                    <li><strong>Técnico en Administración de Sistemas Informáticos</strong>, I.E.S. Europa, Rivas
-                        Vaciamadrid
-                        (2004-2006)</li>
-                </ul>
-
-                <h3 class="h4 fw-semibold mt-4">Experiencia Laboral</h3>
-                <h4>Software & Research Engineer, DEVO inc. Madrid (2018 - 2025)</h4>
-                <ul class="list-unstyled">
-                    <li>Dirigí y coordiné múltiples iniciativas de ingeniería de software, asegurando que los hitos y
-                        entregables del proyecto se cumplieran de manera eficiente.
-                    </li>
-                    <li>Diseñé e implementé soluciones middleware y servicios basados en API utilizando Python.
-                    </li>
-                    <li>Desarrollé aplicaciones web interactivas para la representación de datos.
-                    </li>
-                    <li>Supervisé el desarrollo y mantenimiento de servicios backend así como los procesos de CI/QA
-                        relativos a los mismos.
-                    </li>
-                    <li>Gestioné el soporte de Nivel 1, diagnosticando y resolviendo problemas del sistema.
-                    </li>
-                    <li>Diseñé y mantuve servicios asíncronos y escalables utilizando Celery, Redis y Django.</li>
-                </ul>
-                <h4>Software Developer & Research Engineer, Ericsson R+D Madrid (2013 - 2018)</h4>
-                <ul class="list-unstyled">
-                    <li>Desarrollé y probé funcionalidades de software utilizando Java, Python y lenguajes de scripting.
-                    </li>
-                    <li> Contribuí al desarrollo de OpenDayLight, implementando funcionalidades en C++ y Shell
-                        scripting.
-                    </li>
-                    <li> Ejecuté procesos de control de calidad (QA), asegurando la fiabilidad del software.
-                    </li>
-                    <li> Gestioné los repositorios de Tagtool y Wiki.
-                    </li>
-                    <li> Proporcioné formación y orientación a nuevos empleados y becarios.
-                    </li>
-                    <li> Participé en la implementación y gestión de la Metodología Scrum.</li>
-                </ul>
-                <h4>Software Engineer (intern), Telefónica, Madrid (2013)</h4>
-                <ul class="list-unstyled">
-                    <li>Lideré el proyecto AdGradum, una iniciativa startup centrada en la creación de una herramienta
-                        de
-                        orientación profesional.
-                    </li>
-                    <li>Diseñé y desarrollé componentes backend y frontend utilizando Python, Django, HTML5 y Bootstrap.
-                    </li>
-                    <li>Implementé técnicas de web scraping para recopilar y analizar datos relevantes.
-                    </li>
-                    <li>Diseñé un test vocacional basado en la psicología teórica.</li>
-                </ul>
-                <h4>Software Developer (intern), Ericsson R+D, Madrid (2011 - 2012)</h4>
-                <ul class="list-unstyled">
-                    <li>Realicé investigación y desarrollé soluciones de software para aplicaciones de
-                        telecomunicaciones y conectividad.
-                    </li>
-                    <li>Desarrollé una librería de gestión cliente-servidor SMPP en Java.
-                    </li>
-                    <li>Implementé soluciones de software integrando dongles Bluetooth, GPS, WiFi y USB Modem.
-                    </li>
-                    <li>Diseñé y desarrollé una interfaz gráfica de usuario (GUI) para Windows utilizando JSwing.
-                    </li>
-                    <li>Creé aplicaciones web utilizando JavaScript, Servlets y la API de Google Maps.</li>
-                </ul>
-            </section>
-
-            <section id="projects" class="mb-5 bg-white p-4 rounded shadow-sm">
-                <h2 class="display-4 text-primary1 mb-4 border-bottom pb-2 fw-semibold">Proyectos</h2>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">Meni</h3>
-                    <p>
-                        Una aplicación (iOS & AWS -> Serverless) que conecta causas solidarias con personas y recursos.
-                    </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">Spring</h3>
-                    <p>
-                        Un asesor personal inteligente para la salud y el clima (http://springsmartcity.com/). </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">AdGradum</h3>
-                    <p>
-                        Un asistente personal para guiarte en la elección de estudios superiores. </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">GIVR project</h3>
-                    <p>
-                        3er premio, HackForGood Madrid con el proyecto GIVR & Premio Especial GIO de la UPM: MBA. </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">Smart Baby</h3>
-                    <p>
-                        1er premio, Hackathon IoT BBVA, con el proyecto Smart Baby. </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">Spring project</h3>
-                    <p>
-                        Premio a la Excelencia en Interfaz de Usuario del FI-WARE Smart Society Challenge. </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">Spring project</h3>
-                    <p>
-                        Finalista del FI-WARE 800k Challenge en Campus Party Brasil. </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">Hackathon EBBITS</h3>
-                    <p>
-                        Ganador del Hackathon EBBITS en Campus Party Europe.
-                    </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">FirefoxOS Hackathon</h3>
-                    <p>
-                        Ganador del Hackathon de Firefox OS por la mejor aplicación de HEATH & GREEN-TIC.
-                    </p>
-                </div>
-                <div class="project-item">
-                    <h3 class="h5 fw-semibold">EUI-UPM programming competition</h3>
-                    <p>
-                        1er premio en la competición de programación de EUI-UPM.
-                    </p>
-                </div>
-            </section>
-
-            <section id="skills" class="mb-5 bg-white p-4 rounded shadow-sm">
-                <h2 class="display-4 text-primary1 mb-4 border-bottom pb-2 fw-semibold">Habilidades Técnicas</h2>
-                <p class="lead">
-                    Poseo una amplia gama de habilidades técnicas, con un enfoque en las siguientes áreas clave: </p>
-                <div class="mt-4">
-                    <div class="tag-cloud">
-                        <span class="main-tag">Python</span>
-                        <span class="main-tag">Linux</span>
-                        <span class="main-tag">Raspberry Pi</span>
-                        <span class="main-tag">SQL</span>
-                        <span class="main-tag">Java</span>
-                        <span class="main-tag">C++</span>
-                        <span>JavaScript</span>
-                        <span>Scripting languages</span>
-                        <span>Node.js</span>
-                        <span>C#</span>
-                        <span>Objective-C</span>
-                        <span>Swift</span>
-                        <span>HTML</span>
-                        <span>Ruby</span>
-                        <span>LISP</span>
-                        <span>Windows</span>
-                        <span>Windows Phone</span>
-                        <span>macOS</span>
-                        <span>Android</span>
-                        <span>iOS</span>
-                        <span>Django</span>
-                        <span>Visual Studio</span>
-                        <span>PyCharm</span>
-                        <span>vi</span>
-                        <span>3D printing</span>
-                        <span>scanning & modeling</span>
-                        <span>CNC laser handling</span>
-                        <span>Microsoft Office</span>
-                        <span>Open/LibreOffice</span>
-                        <span>LaTeX</span>
-                        <span>Wikis</span>
-                        <span>Tagtool</span>
-                        <span>Arduino</span>
-                        <span>iBeacons</span>
-                        <span>L8 SmartLight</span>
-                        <span>Bluetooth</span>
-                        <span>Wi-Fi</span>
-                        <span>IoT</span>
-                        <span>IIoT</span>
-                    </div>
-                </div>
-            </section>
-
-            <section id="contacto" class="mb-5 bg-white p-4 rounded shadow-sm">
-                <h2 class="display-4 text-primary1 mb-4 border-bottom pb-2 fw-semibold">Contacto</h2>
-                <p>Puedes ponerte en contacto conmigo por estas vías.</p>
-                <div class="contacto-links">
-                    <a href="mailto:ovidiu5891@outlook.es"><i class="bi bi-envelope-fill fs-3"></i> <span> Email</span>
-                    </a><br>
-                    <a href="https://www.linkedin.com/in/ovidiumirceamoldovan" target="_blank"
-                        rel="noopener noreferrer">
-                        <i class="bi bi-linkedin fs-3"></i><span> LinkedIn</span> </a>
-                    <a href="https://www.tinkercad.com/users/c07XIht3IOZ-ovid" target="_blank" rel="noopener noreferrer"
-                        class="d-flex align-items-center gap-2 text-decoration-none">
-                        <i class="bi bi-box-seam fs-3"></i> <span>Tinkercad Profile</span> </a>
-                    <a href="https://github.com/OvidiuMM" target="_blank" rel="noopener noreferrer"
-                        class="d-flex align-items-center gap-2 text-decoration-none">
-                        <i class="bi bi-github fs-3"></i>
-                        <span>GitHub Profile</span>
-                    </a>
-                </div>
-            </section>
+        <div class="cronos-grid">
+          <div class="cronos-feature">
+            <h3><span class="es">Ritmo de 7 días</span><span class="en">7-day rhythm</span></h3>
+            <p><span class="es">Del PRD del lunes a la demo y release del viernes, con sincronizaciones y verificación rigurosa.</span><span class="en">From Monday's PRD to Friday's demo and release, with syncs and rigorous verification.</span></p>
+          </div>
+          <div class="cronos-feature">
+            <h3><span class="es">Roles claros</span><span class="en">Clear roles</span></h3>
+            <p><span class="es">Solution Owner, Technical Product Owner, Developer y Peer Reviewer: la velocidad nunca supera al gobierno técnico.</span><span class="en">Solution Owner, Technical Product Owner, Developer and Peer Reviewer: speed never outpaces technical governance.</span></p>
+          </div>
+          <div class="cronos-feature">
+            <h3><span class="es">Salvaguardas</span><span class="en">Guardrails</span></h3>
+            <p><span class="es">Mandato de foco, modularización a 72 horas y disparadores de reinicio automáticos contra la deriva de la IA.</span><span class="en">Focus mandate, 72-hour modularisation and automatic reset triggers against AI drift.</span></p>
+          </div>
+          <div class="cronos-feature">
+            <h3><span class="es">Eficiencia 2,85×–3,64×</span><span class="en">2.85×–3.64× efficiency</span></h3>
+            <p><span class="es">Un equipo Cronos completa el equivalente a una semana tradicional de 40 h en unas 11–14 h.</span><span class="en">A Cronos team completes the equivalent of a traditional 40-hour week in about 11–14 hours.</span></p>
+          </div>
         </div>
-    </main>
 
-    <footer class="bg-dark text-white text-center py-3 mt-5">
-        <p>&copy; 2025 Ovidiu Mircea Moldovan Goloman. All rights reserved.</p>
-    </footer>
+        <a class="btn btn-on-dark" href="https://github.com/OvidiuMM/cronos-framework" target="_blank" rel="noopener">
+          <span class="es">Ver el framework en GitHub</span><span class="en">View the framework on GitHub</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2><span class="es">Trayectoria</span><span class="en">Experience</span></h2>
+        <p class="section-lead">
+          <span class="es">Más de una década construyendo y liderando software en empresas de referencia.</span>
+          <span class="en">Over a decade building and leading software at leading companies.</span>
+        </p>
+
+        <ol class="timeline">
+          <li>
+            <div class="tl-head">
+              <h3>DearDoc</h3>
+              <span class="tl-date">2025 — <span class="es">actualidad</span><span class="en">present</span></span>
+            </div>
+            <p class="tl-role"><span class="es">Engineering Project Manager &amp; QA Lead</span><span class="en">Engineering Project Manager &amp; QA Lead</span></p>
+            <p>
+              <span class="es">Lidero la gestión de proyectos, QA, documentación y soporte de un equipo de ingeniería de alto rendimiento. Profesionalicé los flujos de trabajo, unifiqué protocolos de QA y soporte y centralicé el conocimiento para escalar de startup a empresa.</span>
+              <span class="en">I lead project management, QA, documentation and support for a high-performing engineering team. I professionalised workflows, unified QA and support protocols and centralised knowledge to scale from startup to enterprise.</span>
+            </p>
+          </li>
+          <li>
+            <div class="tl-head">
+              <h3>Devo</h3>
+              <span class="tl-date">2018 — 2025</span>
+            </div>
+            <p class="tl-role"><span class="es">Ingeniero de Software</span><span class="en">Software Engineer</span></p>
+            <p>
+              <span class="es">Arquitectura y desarrollo de middleware de alto rendimiento y servicios API en Python; aplicaciones web de visualización de datos; servicios asíncronos con Celery, Redis y Django; bases de datos MySQL y MongoDB. Conductor Scrum y orquestador de proyectos transversales.</span>
+              <span class="en">Architected and built high-performance middleware and API services in Python; data-visualisation web apps; asynchronous services with Celery, Redis and Django; MySQL and MongoDB databases. Scrum conductor and orchestrator of cross-functional projects.</span>
+            </p>
+          </li>
+          <li>
+            <div class="tl-head">
+              <h3>Ericsson</h3>
+              <span class="tl-date">2013 — 2018</span>
+            </div>
+            <p class="tl-role"><span class="es">Desarrollador de Software</span><span class="en">Software Developer</span></p>
+            <p>
+              <span class="es">Desarrollo y pruebas en Java, Python y scripting con cobertura de tests robusta. Contribuciones a OpenDaylight (C++/Shell), investigación en virtualización y cloud, procesos de QA y mentoría a nuevos compañeros.</span>
+              <span class="en">Development and testing in Java, Python and scripting with solid test coverage. Contributions to OpenDaylight (C++/Shell), research in virtualisation and cloud, QA processes and mentoring of new colleagues.</span>
+            </p>
+          </li>
+          <li>
+            <div class="tl-head">
+              <h3>Telefónica — Talentum</h3>
+              <span class="tl-date">2013</span>
+            </div>
+            <p class="tl-role"><span class="es">Startup Tech Lead (prácticas)</span><span class="en">Startup Tech Lead (internship)</span></p>
+            <p>
+              <span class="es">Lideré el proyecto AdGradum (orientación profesional): desarrollo full-stack con Python, Django, HTML5 y Bootstrap, web scraping y un test vocacional basado en investigación psicológica.</span>
+              <span class="en">Led the AdGradum project (career orientation): full-stack development with Python, Django, HTML5 and Bootstrap, web scraping and a vocational test based on psychological research.</span>
+            </p>
+          </li>
+          <li>
+            <div class="tl-head">
+              <h3>Ericsson</h3>
+              <span class="tl-date">2011 — 2012</span>
+            </div>
+            <p class="tl-role"><span class="es">Desarrollador de Software (becario)</span><span class="en">Software Developer (intern)</span></p>
+            <p>
+              <span class="es">I+D de soluciones software: librería cliente-servidor SMPP en Java, integración de Bluetooth/GPS/WiFi y módems USB, GUI en JSwing y aplicaciones web con la API de Google Maps.</span>
+              <span class="en">R&amp;D of software solutions: SMPP client-server library in Java, Bluetooth/GPS/WiFi and USB modem integration, JSwing GUI and web apps with the Google Maps API.</span>
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CREDENTIALS ============ -->
+    <section class="section section-alt" id="credentials">
+      <div class="container">
+        <h2><span class="es">Formación y credenciales</span><span class="en">Education &amp; credentials</span></h2>
+        <div class="cred-grid">
+          <div class="cred-col">
+            <h3><span class="es">Educación</span><span class="en">Education</span></h3>
+            <ul class="plain-list">
+              <li><strong>MBA</strong> — <span class="es">Administración y Dirección de Empresas, UPM (2016–2017)</span><span class="en">Business Administration &amp; Management, UPM (2016–2017)</span></li>
+              <li><strong><span class="es">Máster</span><span class="en">Master's</span></strong> — <span class="es">Desarrollo de Aplicaciones y Servicios para Dispositivos Móviles, UPM (2015–2017)</span><span class="en">Mobile App &amp; Services Development, UPM (2015–2017)</span></li>
+              <li><strong><span class="es">Graduado en Ingeniería de Software</span><span class="en">B.Sc. Software Engineering</span></strong> — <span class="es">UPM (2006–2013)</span><span class="en">UPM (2006–2013)</span></li>
+            </ul>
+          </div>
+          <div class="cred-col">
+            <h3><span class="es">Certificaciones</span><span class="en">Certifications</span></h3>
+            <ul class="plain-list">
+              <li>Professional Scrum Master I (PSM I)</li>
+              <li>AWS Certified Cloud Practitioner</li>
+              <li><span class="es">Introducción a Cloud Computing (edX)</span><span class="en">Introduction to Cloud Computing (edX)</span></li>
+              <li>Professional Scrum Facilitation Skills</li>
+              <li><span class="es">Fundamentos de GitHub</span><span class="en">GitHub Foundations</span></li>
+            </ul>
+          </div>
+          <div class="cred-col">
+            <h3><span class="es">Reconocimientos</span><span class="en">Awards</span></h3>
+            <ul class="plain-list">
+              <li><span class="es">Premio GIO de la UPM (MBA y MDSIC)</span><span class="en">UPM GIO Award (MBA &amp; MDSIC)</span></li>
+              <li><span class="es">3.er premio HackForGood Madrid</span><span class="en">3rd prize, HackForGood Madrid</span></li>
+              <li>Hackathon BEEVA</li>
+              <li><span class="es">FI-WARE Excellence in User Interface</span><span class="en">FI-WARE Excellence in User Interface</span></li>
+              <li><span class="es">Finalista FI-WARE &amp; Campus Party Challenge — Smart Cities</span><span class="en">Finalist, FI-WARE &amp; Campus Party Challenge — Smart Cities</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="skills-title"><span class="es">Tecnologías</span><span class="en">Technologies</span></h3>
+        <ul class="skill-chips">
+          <li>Python</li><li>JavaScript</li><li>Django</li><li>Celery</li><li>Redis</li>
+          <li>MySQL</li><li>MongoDB</li><li>C++</li><li>Java</li>
+          <li>Scrum / Agile</li><li>QA</li><li>APIs &amp; Middleware</li>
+          <li>IoT / IIoT</li><li><span class="es">Automatización</span><span class="en">Automation</span></li><li>Cloud / AWS</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ AUDIENCES ============ -->
+    <section class="section" id="audiences">
+      <div class="container">
+        <h2><span class="es">Con quién trabajo</span><span class="en">Who I work with</span></h2>
+        <div class="audience-grid">
+          <div class="audience">
+            <h3><span class="es">Empresas</span><span class="en">Companies</span></h3>
+            <p>
+              <span class="es">Pymes y grandes organizaciones que quieren ganar eficiencia, lanzar nuevos productos o no quedarse atrás con la IA y la automatización.</span>
+              <span class="en">SMEs and large organisations that want to gain efficiency, launch new products or keep up with AI and automation.</span>
+            </p>
+          </div>
+          <div class="audience">
+            <h3><span class="es">Administración pública española</span><span class="en">Spanish public administration</span></h3>
+            <p>
+              <span class="es">Organismos que necesitan adoptar IA con garantías: transparencia, protección de datos y cumplimiento normativo.</span>
+              <span class="en">Public bodies that need to adopt AI with guarantees: transparency, data protection and regulatory compliance.</span>
+            </p>
+          </div>
+          <div class="audience">
+            <h3><span class="es">Particulares</span><span class="en">Individuals</span></h3>
+            <p>
+              <span class="es">Profesionales y emprendedores que quieren aprender a usar la IA o crear su propia solución.</span>
+              <span class="en">Professionals and entrepreneurs who want to learn to use AI or build their own solution.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section section-alt" id="faq">
+      <div class="container">
+        <h2>FAQ</h2>
+        <div class="faq">
+          <details>
+            <summary><span class="es">¿Trabajas en remoto y presencial?</span><span class="en">Do you work remotely and on-site?</span></summary>
+            <p><span class="es">Sí. Trabajo en remoto en toda España y de forma presencial según el proyecto, con disponibilidad flexible.</span><span class="en">Yes. I work remotely across Spain and on-site depending on the project, with flexible availability.</span></p>
+          </details>
+          <details>
+            <summary><span class="es">¿En qué idiomas puedes trabajar?</span><span class="en">Which languages can you work in?</span></summary>
+            <p><span class="es">Español y rumano (nativo) e inglés (nivel profesional).</span><span class="en">Spanish and Romanian (native) and English (professional level).</span></p>
+          </details>
+          <details>
+            <summary><span class="es">¿Tienes experiencia en grandes empresas y administración?</span><span class="en">Do you have enterprise and public-sector experience?</span></summary>
+            <p><span class="es">Sí: más de 13 años en Ericsson, Telefónica, Devo y DearDoc, liderando QA, gestión de proyectos y desarrollo. Trabajo con el rigor y la trazabilidad que exige el sector público.</span><span class="en">Yes: 13+ years at Ericsson, Telefónica, Devo and DearDoc, leading QA, project management and development. I work with the rigour and traceability the public sector requires.</span></p>
+          </details>
+          <details>
+            <summary><span class="es">¿Mis datos están seguros?</span><span class="en">Is my data safe?</span></summary>
+            <p><span class="es">Sí. Trabajo conforme al RGPD y a las buenas prácticas del Reglamento de IA de la UE.</span><span class="en">Yes. I work in line with GDPR and EU AI Act best practices.</span></p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container contact-inner">
+        <div>
+          <h2><span class="es">Contacto</span><span class="en">Contact</span></h2>
+          <p class="section-lead">
+            <span class="es">¿Tienes un proyecto o una duda? Escríbeme y respondo personalmente.</span>
+            <span class="en">Have a project or a question? Write to me and I'll reply personally.</span>
+          </p>
+          <ul class="contact-links">
+            <li>
+              <span class="es">Correo:</span><span class="en">Email:</span>
+              <a href="mailto:ovidiu5891@gmail.com">ovidiu5891@gmail.com</a>
+            </li>
+            <li>
+              LinkedIn:
+              <a href="https://www.linkedin.com/in/ovidiumirceamoldovan" target="_blank" rel="noopener">linkedin.com/in/ovidiumirceamoldovan</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form" action="https://formspree.io/f/TU_ID" method="POST" novalidate>
+          <label>
+            <span class="es">Nombre</span><span class="en">Name</span>
+            <input type="text" name="name" required autocomplete="name" />
+          </label>
+          <label>
+            <span class="es">Correo</span><span class="en">Email</span>
+            <input type="email" name="email" required autocomplete="email" />
+          </label>
+          <label>
+            <span class="es">Mensaje</span><span class="en">Message</span>
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">
+            <span class="es">Enviar</span><span class="en">Send</span>
+          </button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Ovidiu Moldovan · Moldovan Tech.
+        <span class="es">Todos los derechos reservados.</span><span class="en">All rights reserved.</span>
+      </p>
+      <p><a href="#top"><span class="es">Volver arriba ↑</span><span class="en">Back to top ↑</span></a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
