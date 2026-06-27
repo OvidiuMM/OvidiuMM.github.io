@@ -19,7 +19,13 @@ Content is already populated from Ovidiu Moldovan's CV (bio, experience, educati
 
 ## One thing to set up before launch
 
-**Contact form**: the form posts to [Formspree](https://formspree.io). Create a free form, then in `index.html` replace `https://formspree.io/f/TU_ID` with your real endpoint. Until you do, the form shows a friendly "not configured" message and points visitors to your email (`ovidiu5891@gmail.com`).
+**Contact form (Google Form)**: the contact section embeds a Google Form via `<iframe>`. To connect yours:
+1. Open your Google Form → **Send** → the **`< >`** (Embed HTML) tab.
+2. Copy the `src` URL — it looks like `https://docs.google.com/forms/d/e/XXXXXXXX/viewform?embedded=true`.
+3. In `index.html`, replace the iframe `src` value with your form’s `src` URL.
+4. Adjust the iframe height in `styles.css` (`.form-embed iframe { height: … }`) if your form is taller/shorter.
+
+Your email (`ovidiu5891@gmail.com`) is also shown above the form as a fallback.
 
 **Logo**: `logo.svg` and `favicon.svg` are a clean vector recreation of the "Moldovan Tech" emblem. To use your exact original image instead, drop it in this folder as `logo.svg`/`logo.png` and update the `<img src>` in `index.html`.
 
