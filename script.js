@@ -53,43 +53,4 @@
   /* ---------- Footer year ---------- */
   var yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
-
-  /* ---------- Contact form (Formspree-friendly, graceful fallback) ---------- */
-  var form = document.querySelector(".contact-form");
-  if (form) {
-    form.addEventListener("submit", function (e) {
-      var status = form.querySelector(".form-status");
-      var isEn = body.classList.contains("lang-en");
-      var action = form.getAttribute("action") || "";
-
-      // If the form endpoint hasn't been configured yet, prevent submit and inform the user.
-      if (action.indexOf("TU_ID") !== -1 || action.indexOf("formspree.io/f/") === -1) {
-        e.preventDefault();
-        if (status) {
-          status.textContent = isEn
-            ? "Form not configured yet — set your Formspree ID (see README), or email contact@ovidiu.moldovan.es."
-            : "Formulario sin configurar — añade tu ID de Formspree (ver README) o escribe a contact@ovidiu.moldovan.es.";
-        }
-        return;
-      }
-
-      // Otherwise submit via fetch for a no-reload experience.
-      e.preventDefault();
-      var data = new FormData(form);
-      if (status) status.textContent = isEn ? "Sending…" : "Enviando…";
-
-      fetch(action, { method: "POST", body: data, headers: { Accept: "application/json" } })
-        .then(function (res) {
-          if (res.ok) {
-            form.reset();
-            if (status) status.textContent = isEn ? "Thanks! I'll reply soon." : "¡Gracias! Te responderé pronto.";
-          } else {
-            if (status) status.textContent = isEn ? "Something went wrong. Please email me." : "Algo falló. Escríbeme por correo.";
-          }
-        })
-        .catch(function () {
-          if (status) status.textContent = isEn ? "Network error. Please email me." : "Error de red. Escríbeme por correo.";
-        });
-    });
-  }
 })();
