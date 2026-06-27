@@ -67,8 +67,8 @@
         e.preventDefault();
         if (status) {
           status.textContent = isEn
-            ? "Form not configured yet — set your Formspree ID (see README), or email contact@ovidiu.moldovan.es."
-            : "Formulario sin configurar — añade tu ID de Formspree (ver README) o escribe a contact@ovidiu.moldovan.es.";
+            ? "Form not configured yet — set your Formspree ID (see README), or email ovidiu5891@gmail.com."
+            : "Formulario sin configurar — añade tu ID de Formspree (ver README) o escribe a ovidiu5891@gmail.com.";
         }
         return;
       }
