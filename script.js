@@ -60,6 +60,21 @@
     });
   }
 
+  /* ---------- Contact form: Google Forms only loads on request (its cookies) ---------- */
+  document.querySelectorAll(".form-embed[data-form-src]").forEach(function (box) {
+    var button = box.querySelector(".form-show");
+    if (!button) return;
+    button.addEventListener("click", function () {
+      var frame = document.createElement("iframe");
+      frame.title = "Formulario de contacto / Contact form";
+      frame.src = box.getAttribute("data-form-src");
+      frame.referrerPolicy = "no-referrer";
+      box.innerHTML = "";
+      box.appendChild(frame);
+      frame.focus();
+    });
+  });
+
   /* ---------- Footer year ---------- */
   var yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();

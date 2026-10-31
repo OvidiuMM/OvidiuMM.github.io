@@ -5,4 +5,6 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url><loc>https://ovidiu.moldovan.es/aviso-legal.html</loc></url>
+  <url><loc>https://ovidiu.moldovan.es/privacidad.html</loc></url>
 </urlset>
