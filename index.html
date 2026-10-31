@@ -49,6 +49,7 @@
         <ul id="nav-menu" class="nav-menu">
           <li><a href="#about"><span class="es">Sobre mí</span><span class="en">About</span></a></li>
           <li><a href="#services"><span class="es">Servicios</span><span class="en">Services</span></a></li>
+          <li><a href="#clar">CLAR</a></li>
           <li><a href="#cronos">Cronos</a></li>
           <li><a href="#experience"><span class="es">Trayectoria</span><span class="en">Experience</span></a></li>
           <li><a href="#audiences"><span class="es">Con quién trabajo</span><span class="en">Who I work with</span></a></li>
@@ -187,6 +188,48 @@
     </section>
 
     <!-- ============ CRONOS FRAMEWORK ============ -->
+    <!-- ============ CLAR ============ -->
+    <section class="section section-alt" id="clar">
+      <div class="container">
+        <p class="eyebrow">
+          <span class="es">Producto propio · Gratis y de código abierto</span>
+          <span class="en">My own product · Free and open source</span>
+        </p>
+        <h2>
+          <span class="es">CLAR: decide qué hacer ahora, con claridad</span>
+          <span class="en">CLAR: decide what to do now, with clarity</span>
+        </h2>
+        <p class="section-lead">
+          <span class="es">Una app web para organizar tu tiempo: evalúas tu Rueda de la Vida, conviertes lo que quieres mejorar en metas y proyectos, y cada día decides qué hacer con un Top 10 y una agenda con alarmas. Funciona sin conexión, en español y en inglés.</span>
+          <span class="en">A web app to organise your time: rate your Wheel of Life, turn what you want to improve into goals and projects, and decide what to do each day with a Top 10 and an agenda with alarms. It works offline, in Spanish and English.</span>
+        </p>
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🎯</div>
+            <h3><span class="es">De las metas a la acción</span><span class="en">From goals to action</span></h3>
+            <p><span class="es">Cada meta se convierte en tareas concretas y, si ayuda, en proyectos con fecha de fin.</span><span class="en">Each goal turns into concrete tasks and, if it helps, into projects with an end date.</span></p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">📋</div>
+            <h3><span class="es">Tu Top 10 del día</span><span class="en">Your Top 10 for today</span></h3>
+            <p><span class="es">Listas de trabajo y personal separadas, agenda, alarmas y tareas que se repiten a tu manera.</span><span class="en">Separate work and personal lists, an agenda, alarms and tasks that repeat your way.</span></p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🔓</div>
+            <h3><span class="es">Abierta y sin anuncios</span><span class="en">Open and ad-free</span></h3>
+            <p><span class="es">Gratis, sin publicidad ni analítica, con los datos en la UE y el código en GitHub (MIT). React, TypeScript y Firebase.</span><span class="en">Free, with no ads or analytics, data stored in the EU and the code on GitHub (MIT). React, TypeScript and Firebase.</span></p>
+          </article>
+        </div>
+        <p class="clar-actions">
+          <a class="btn btn-primary es" href="https://clar.life" target="_blank" rel="noopener">Probar CLAR</a>
+          <a class="btn btn-primary en" href="https://clar.life/?lang=en" target="_blank" rel="noopener">Try CLAR</a>
+          <a class="btn btn-ghost" href="https://github.com/OvidiuMM/neuroproductivity-platform" target="_blank" rel="noopener">
+            <span class="es">Ver el código</span><span class="en">View the code</span>
+          </a>
+        </p>
+      </div>
+    </section>
+
     <section class="section cronos" id="cronos">
       <div class="container">
         <p class="eyebrow eyebrow-light">
@@ -417,14 +460,14 @@
           </ul>
         </div>
 
-        <div class="form-embed">
-          <iframe
-            title="Formulario de contacto / Contact form"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSer_yidJcaR73bIqOnudVOZd9XlCgvHp41Ot-5o4gCy78Vx5Q/viewform?embedded=true"
-            referrerpolicy="no-referrer"
-            loading="lazy">
-            <span class="es">Cargando formulario…</span><span class="en">Loading form…</span>
-          </iframe>
+        <div class="form-embed" data-form-src="https://docs.google.com/forms/d/e/1FAIpQLSer_yidJcaR73bIqOnudVOZd9XlCgvHp41Ot-5o4gCy78Vx5Q/viewform?embedded=true">
+          <div class="form-consent">
+            <p>
+              <span class="es">El formulario es de Google Forms: al mostrarlo, Google puede usar sus cookies. Con tu mensaje trato tu nombre y tu email para responderte (<a href="privacidad.html">privacidad</a>). Si lo prefieres, escríbeme al correo.</span>
+              <span class="en">The form is a Google Form: once shown, Google may use its cookies. I use your name and email to reply to you (<a href="privacidad.html">privacy</a>). If you'd rather, just email me.</span>
+            </p>
+            <button type="button" class="btn btn-primary form-show"><span class="es">Mostrar el formulario</span><span class="en">Show the form</span></button>
+          </div>
         </div>
       </div>
     </section>
@@ -436,7 +479,11 @@
       <p>© <span id="year"></span> Ovidiu Moldovan · Moldovan Tech.
         <span class="es">Todos los derechos reservados.</span><span class="en">All rights reserved.</span>
       </p>
-      <p><a href="#top"><span class="es">Volver arriba ↑</span><span class="en">Back to top ↑</span></a></p>
+      <p>
+        <a href="aviso-legal.html"><span class="es">Aviso legal</span><span class="en">Legal notice</span></a> ·
+        <a href="privacidad.html"><span class="es">Privacidad</span><span class="en">Privacy</span></a> ·
+        <a href="#top"><span class="es">Volver arriba ↑</span><span class="en">Back to top ↑</span></a>
+      </p>
     </div>
   </footer>
 

@@ -243,6 +243,27 @@ a:hover { text-decoration: underline; }
 .site-footer { border-top: 1px solid var(--border); padding: 26px 0; background: var(--bg); }
 .footer-inner { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; color: var(--text-soft); font-size: .9rem; }
 
+/* ===== CLAR ===== */
+.clar-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+a.btn.en { display: none; }
+body.lang-en a.btn.en { display: inline-block; }
+
+/* ===== Bloques por idioma (además de los .es/.en en línea) ===== */
+body.lang-en div.en { display: block; }
+
+/* ===== Legal pages ===== */
+.legal-inner { max-width: 760px; }
+.legal h1 { font-size: 1.9rem; margin-bottom: 4px; }
+.legal h2 { font-size: 1.15rem; margin-top: 28px; }
+.legal p, .legal li { color: var(--text-soft); line-height: 1.65; }
+.legal ul { padding-left: 20px; }
+.legal-updated { font-size: .9rem; }
+.legal-note { border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; background: var(--brand-soft); }
+
+/* ===== Formulario de contacto: se carga al pulsar ===== */
+.form-consent { padding: 24px; display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
+.form-consent p { color: var(--text-soft); font-size: .92rem; margin: 0; }
+
 /* ===== Responsive ===== */
 @media (max-width: 860px) {
   .about-grid, .cards, .audience-grid, .contact-inner, .cred-grid { grid-template-columns: 1fr; }
