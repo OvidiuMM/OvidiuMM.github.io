@@ -247,6 +247,13 @@ a:hover { text-decoration: underline; }
 .clar-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
 a.btn.en { display: none; }
 body.lang-en a.btn.en { display: inline-block; }
+.eyebrow a { color: inherit; }
+.clar-shot { margin: 0 0 2em; }
+.clar-shot img { width: 100%; height: auto; border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); }
+.clar-shot img.es { display: block; }
+.clar-shot img.en { display: none; }
+body.lang-en .clar-shot img.es { display: none; }
+body.lang-en .clar-shot img.en { display: block; }
 
 /* ===== Bloques por idioma (además de los .es/.en en línea) ===== */
 body.lang-en div.en { display: block; }
