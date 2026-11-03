@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#1b3a5b"/>
-  <g fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M18 46 L18 20 L32 37 L46 20 L46 46" />
-  </g>
-  <g fill="#ffffff">
-    <circle cx="18" cy="20" r="3.2"/>
-    <circle cx="32" cy="37" r="3.2"/>
-    <circle cx="46" cy="20" r="3.2"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-53.46 -53.46 618.92 618.92" role="img"><title>Moldovan Tech — Software Engineering</title><rect x="-53.46" y="-53.46" width="618.92" height="618.92" rx="136.16" fill="#172D4E"/><path d="M182.81 54.91A214 214 0 1 1 107.34 409.94" fill="none" stroke="#FFFFFF" stroke-width="30" stroke-linecap="round"/><g fill="#FFFFFF"><circle cx="67.05" cy="356.47" r="14"/><circle cx="42.52" cy="270.93" r="11.5"/><circle cx="52.47" cy="189.87" r="9"/><circle cx="87.37" cy="124.25" r="6.5"/></g><clipPath id="mclip-small"><circle cx="256" cy="256" r="210"/></clipPath><path d="M136 196L196 196L256 286L316 196L376 196L376 520L320 520L320 296L256 392L192 296L192 520L136 520Z" fill="#FFFFFF" clip-path="url(#mclip-small)"/></svg>
