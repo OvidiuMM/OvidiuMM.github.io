@@ -1,2 +1,4 @@
 .DS_Store
+# Google Apps Script for the contact form: lives in the Google account, not in the site
+contact-form-email-notification.gs
 

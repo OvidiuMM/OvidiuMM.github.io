@@ -13,7 +13,10 @@ Static site — plain HTML, CSS and JavaScript. No build step. Hosted on **GitHu
 | `script.js` | ES/EN language toggle, mobile nav, contact form |
 | `CNAME` | Custom domain for GitHub Pages (`ovidiu.moldovan.es`) |
 | `sitemap.xml`, `robots.txt` | SEO |
-| `favicon.svg` | Site icon |
+| `logo.svg` | Moldovan Tech symbol in the header (simplified version, legible at 40 px) |
+| `favicon.svg`, `img/favicon-32.png` | Site icon (SVG, with a PNG fallback for older browsers) |
+| `img/apple-touch-icon.png` | Icon for the iPhone home screen (180 × 180) |
+| `img/og-image.png` | Share card for social networks (1200 × 630) |
 
 Content is already populated from Ovidiu Moldovan's CV (bio, experience, education, certifications, awards, skills, languages). Email is `ovidiu5891@gmail.com` and LinkedIn is `linkedin.com/in/ovidiumirceamoldovan`.
 
@@ -27,7 +30,7 @@ Content is already populated from Ovidiu Moldovan's CV (bio, experience, educati
 
 Your email (`ovidiu5891@gmail.com`) is also shown above the form as a fallback.
 
-**Logo**: `logo.svg` and `favicon.svg` are a clean vector recreation of the "Moldovan Tech" emblem. To use your exact original image instead, drop it in this folder as `logo.svg`/`logo.png` and update the `<img src>` in `index.html`.
+**Logo**: `logo.svg`, `favicon.svg`, `img/favicon-32.png`, `img/apple-touch-icon.png` and `img/og-image.png` come from the Moldovan Tech logo pack (kept outside this repo, with the scripts that generate it). The header, favicon and touch icon use the simplified symbol, which stays legible at small sizes; the share card uses the full logo. All three HTML pages reference them.
 
 ---
 
